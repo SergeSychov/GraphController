@@ -15,6 +15,10 @@
 		445C7BB81DEEBFA400F26ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C7BB61DEEBFA400F26ED3 /* LaunchScreen.storyboard */; };
 		445C7BC31DEEBFA400F26ED3 /* TestNSConstrainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BC21DEEBFA400F26ED3 /* TestNSConstrainTests.m */; };
 		445C7BCE1DEEBFA400F26ED3 /* TestNSConstrainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BCD1DEEBFA400F26ED3 /* TestNSConstrainUITests.m */; };
+		445C7BE31DEF1B3700F26ED3 /* UsersLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BDC1DEF1B3700F26ED3 /* UsersLinesView.m */; };
+		445C7BE41DEF1B3700F26ED3 /* GraphBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BDE1DEF1B3700F26ED3 /* GraphBaseView.m */; };
+		445C7BE51DEF1B3700F26ED3 /* ChooseLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BE01DEF1B3700F26ED3 /* ChooseLinesView.m */; };
+		445C7BE61DEF1B3700F26ED3 /* GrpahModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C7BE21DEF1B3700F26ED3 /* GrpahModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		445C7BC91DEEBFA400F26ED3 /* TestNSConstrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNSConstrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445C7BCD1DEEBFA400F26ED3 /* TestNSConstrainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSConstrainUITests.m; sourceTree = "<group>"; };
 		445C7BCF1DEEBFA400F26ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445C7BDB1DEF1B3700F26ED3 /* UsersLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersLinesView.h; sourceTree = "<group>"; };
+		445C7BDC1DEF1B3700F26ED3 /* UsersLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersLinesView.m; sourceTree = "<group>"; };
+		445C7BDD1DEF1B3700F26ED3 /* GraphBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBaseView.h; sourceTree = "<group>"; };
+		445C7BDE1DEF1B3700F26ED3 /* GraphBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBaseView.m; sourceTree = "<group>"; };
+		445C7BDF1DEF1B3700F26ED3 /* ChooseLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLinesView.h; sourceTree = "<group>"; };
+		445C7BE01DEF1B3700F26ED3 /* ChooseLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLinesView.m; sourceTree = "<group>"; };
+		445C7BE11DEF1B3700F26ED3 /* GrpahModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrpahModel.h; sourceTree = "<group>"; };
+		445C7BE21DEF1B3700F26ED3 /* GrpahModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrpahModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,14 @@
 				445C7BAE1DEEBFA400F26ED3 /* ViewController.h */,
 				445C7BAF1DEEBFA400F26ED3 /* ViewController.m */,
 				445C7BB11DEEBFA400F26ED3 /* Main.storyboard */,
+				445C7BDB1DEF1B3700F26ED3 /* UsersLinesView.h */,
+				445C7BDC1DEF1B3700F26ED3 /* UsersLinesView.m */,
+				445C7BDD1DEF1B3700F26ED3 /* GraphBaseView.h */,
+				445C7BDE1DEF1B3700F26ED3 /* GraphBaseView.m */,
+				445C7BDF1DEF1B3700F26ED3 /* ChooseLinesView.h */,
+				445C7BE01DEF1B3700F26ED3 /* ChooseLinesView.m */,
+				445C7BE11DEF1B3700F26ED3 /* GrpahModel.h */,
+				445C7BE21DEF1B3700F26ED3 /* GrpahModel.m */,
 				445C7BB41DEEBFA400F26ED3 /* Assets.xcassets */,
 				445C7BB61DEEBFA400F26ED3 /* LaunchScreen.storyboard */,
 				445C7BB91DEEBFA400F26ED3 /* Info.plist */,
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					445C7BA41DEEBFA400F26ED3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L256QEN4KV;
 						ProvisioningStyle = Automatic;
 					};
 					445C7BBD1DEEBFA400F26ED3 = {
@@ -274,8 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				445C7BB01DEEBFA400F26ED3 /* ViewController.m in Sources */,
+				445C7BE41DEF1B3700F26ED3 /* GraphBaseView.m in Sources */,
 				445C7BAD1DEEBFA400F26ED3 /* AppDelegate.m in Sources */,
+				445C7BE51DEF1B3700F26ED3 /* ChooseLinesView.m in Sources */,
 				445C7BAA1DEEBFA400F26ED3 /* main.m in Sources */,
+				445C7BE61DEF1B3700F26ED3 /* GrpahModel.m in Sources */,
+				445C7BE31DEF1B3700F26ED3 /* UsersLinesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L256QEN4KV;
 				INFOPLIST_FILE = TestNSConstrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FucuroApp.TestNSConstrain;
@@ -435,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L256QEN4KV;
 				INFOPLIST_FILE = TestNSConstrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FucuroApp.TestNSConstrain;
